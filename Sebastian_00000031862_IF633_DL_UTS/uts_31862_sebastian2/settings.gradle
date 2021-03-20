@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "uts_31862_sebastian2"
