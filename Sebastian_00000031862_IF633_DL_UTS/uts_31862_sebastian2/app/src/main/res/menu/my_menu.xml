@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Main Menu"
+        android:icon="@drawable/ic_more"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:title="profil"
+                android:id="@+id/profilicon"
+                app:showAsAction="never"/>
+            <item
+                android:title="logout"
+                android:id="@+id/logouticon"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
